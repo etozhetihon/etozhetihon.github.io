@@ -1,0 +1,91 @@
+body {
+    padding: 50px 0;
+    background-image: url(https://st3.depositphotos.com/5697382/12968/i/950/depositphotos_129685872-stock-photo-old-brown-paper-texture-background.jpg);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.container {
+    width: 800px;
+    min-height: 500px;
+    border: 10px solid #fff;
+    margin: 0 auto;
+    background-color:#fff;
+}
+
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.title-block {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; 
+    background: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80) no-repeat center center / cover;
+    color:#fff;
+    margin-right: 10px;
+}
+
+.userpic {
+    display:flex;
+    height: 100%;
+    width: 20%;
+    background: url(https://thumbs.dreamstime.com/b/portrait-friendly-raccoon-wearing-glasses-funny-cute-vector-illustration-raccoon-wearing-eyeglasses-kids-t-shirt-101252368.jpg) no-repeat center center / cover;
+}
+
+.nav ul{
+    display: flex;
+    margin: 4px 0;
+    background: rgb(230, 230,230);
+}
+
+.nav li{
+    
+}
+
+.nav li a {
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    border-right: 1px solid #b3b3b3;    
+    transition: background .3s ease;
+}
+
+.nav li a:hover {
+    background: rgb(196, 196, 196);
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+
+}
+
+.sidebar {
+    padding: 20px;
+    width: 30%;
+}
+
+.skill li {
+    padding: 5px 0;
+    margin: 5px;
+    transition: transform .3s ease;
+}
+
+.skill li:hover {
+    transform: translate(10px);
+}
